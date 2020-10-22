@@ -1,7 +1,7 @@
 # io_scouter - Check how much IO you have !!
 
 **Mockup version**
-This web apps is live at https://boydviz.herokuapp.com/
+This web apps is live at https://io-scouter.herokuapp.com/
 
 
 
