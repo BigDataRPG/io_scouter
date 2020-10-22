@@ -17,8 +17,8 @@ st.write("This project built for test how much IO you actually have !!")
 @st.cache(allow_output_mutation=True)
 def load_model():
 
-	model = joblib.load("./model/clf_log_tfidf.joblib")
-	vectorizer = joblib.load("./model/vectorizer.joblib")
+	model = joblib.load("./model/clf_log_tfidf_20201022.joblib")
+	vectorizer = joblib.load("./model/vectorizer_20201022.joblib")
 	# model = joblib.load("C://Users/Boyd/Projects/io_scouter/model/clf_log_tfidf.joblib")
 	# vectorizer = joblib.load("C://Users/Boyd/Projects/io_scouter/model/vectorizer.joblib")
 	
