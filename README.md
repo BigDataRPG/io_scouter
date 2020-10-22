@@ -1,6 +1,6 @@
 # io_scouter - Check how much IO you have !!
 
-**Mockup version**
+**Mockup version 0.0.2**
 This web apps is live at https://io-scouter.herokuapp.com/
 
 

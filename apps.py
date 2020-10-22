@@ -9,7 +9,7 @@ import re
 
 
 st.title("Welcome to IO - Scouter Project ")
-st.write("😲 or 🤖 or 🍕  ┬┴┬┴┤ ͜ʖ ͡°) ├┬┴┬┴ Ver 0.0.1 !!")
+st.write("😲 or 🤖 or 🍕  ┬┴┬┴┤ ͜ʖ ͡°) ├┬┴┬┴ - Ver 0.0.2 - 20201022!!")
 st.write("This project built for test how much IO you actually have !!")
 
 
