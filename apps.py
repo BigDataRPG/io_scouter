@@ -60,15 +60,15 @@ def get_io_score(_y_val):
 		_y_val = _y_val*1.1
 		st.markdown(f"## Your IO Score is {_y_val:.5f} !! ")
 
-	elif _y_val <= 0.35:
-		_y_val = _y_val*1.4
-		st.markdown(f"## Your IO Score is {_y_val:.5f} !! ")
-
 	elif _y_val <= 0.4:
-		_y_val = _y_val*2
+		_y_val = _y_val*1.25
 		st.markdown(f"## Your IO Score is {_y_val:.5f} !! ")
 
-	elif _y_val > 0.4:
+	elif _y_val <= 0.5:
+		_y_val = _y_val*1.5
+		st.markdown(f"## Your IO Score is {_y_val:.5f} !! ")
+
+	elif _y_val > 0.5:
 		_y_val = _y_val*90000
 		# file_gif = open("C://Users/Boyd/Projects/io_scouter/pict/over9000.gif", "rb")
 		file_gif = open("./pict/over9000.gif", "rb")
